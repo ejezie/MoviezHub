@@ -12,6 +12,7 @@
 
 .banner-overview {
   width: 50em;
+  overflow-wrap: break-word;
 }
 
 .banner-button {
@@ -31,12 +32,33 @@
   color: rgba(31, 31, 31, 0.5);
 }
 
-/* .banner-fade {
-  height: 8rem;
-  background: linear-gradient(
-    180deg,
-    transparent,
-    rgb(0, 0, 10),
-    rgb(8, 8, 48)
-  );
-} */
+ 
+@media (max-width: 820px) {
+  .banner-overview {
+    width: 40rem;
+    
+  }
+} 
+@media (max-width: 700px) {
+  .banner-overview {
+    width: 30rem;
+    
+  }
+} 
+@media (max-width: 500px) {
+  .banner-overview {
+    width: 25rem;
+    
+  }
+} 
+@media (max-width: 400px) {
+  .banner-overview {
+    width: 18rem;
+    font-size: normal;
+    
+  }
+  .banner-content {
+    margin-left: 2%;
+    padding-top: 8%;
+  }
+} 
