@@ -1,11 +1,13 @@
 import "./App.css";
 import Row from "./Row";
 import requests from "./request";
+import Banner from "./Banner";
 
 function App() {
   return (
-    <div className="App">
-      <Row title="TRENDING NOW" fetchUrl={requests.fetchTrending}/>
+    <div className="app">
+      <Banner />
+      <Row title="TRENDING NOW" fetchUrl={requests.fetchTrending} />
       <Row title="TOP RATED" fetchUrl={requests.fecthTopRated} />
       <Row title="ACTION MOVIES" fetchUrl={requests.fetchActionMovies} />
       <Row title="COMEDY MOVIES" fetchUrl={requests.fetchComedyMovies} />
