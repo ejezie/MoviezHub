@@ -22,7 +22,7 @@ function Banner() {
   }, []);
   
   function truncate(str, n){
-    return str.?lenght > n str.substr(0, n-1) + "..." : str;
+    return str.?lenght > n ? str.substr(0, n-1) + "..." : str;
   }
 
   return (
