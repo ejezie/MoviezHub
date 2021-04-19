@@ -36,7 +36,7 @@ function Banner() {
       }}>
       <div className="banner-content">
           <h1 className="banner-title">{movie?.title || movie?.name || movie?.original_name}</h1>
-          <div className="banner-overview">{truncate(movie?.overview, 200)}</div>
+          <div className="banner-overview">{truncate(movie?.overview, 150)}</div>
           <button  className="banner-button">Preview</button>
       </div>
       <div className="banner-fade"></div>
