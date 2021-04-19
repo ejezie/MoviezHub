@@ -22,7 +22,7 @@ function Row({ title, fetchUrl }) {
 
   const opts = {
     height: "300",
-    width: "90%",
+    width: "100%",
     playerVars: {
       // http://developers.google.com/yotube/player_parameter,
       autoplay: 1,
