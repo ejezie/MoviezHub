@@ -25,7 +25,7 @@ function Banner() {
     return str?.lenght > n ? str.substr(0, n-1) + "..." : str;
   }
 
-  const overviewBanner = movie?.overview;
+  overviewBanner = movie?.overview;
 
   return (
     <header
